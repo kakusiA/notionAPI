@@ -180,7 +180,6 @@ def extract_text_from_blocks(blocks, depth=0):
     return lines
 
 
-
 def save_blocks_to_json(blocks, filename="blocks_dump.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(blocks, f, ensure_ascii=False, indent=2)
